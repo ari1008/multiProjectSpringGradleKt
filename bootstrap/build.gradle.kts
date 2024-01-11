@@ -25,7 +25,6 @@ dependencies {
     implementation(project(":server"))
     implementation(project(":domain"))
     testImplementation("org.springframework.boot:spring-boot-starter-test")
-
 }
 
 tasks.withType<KotlinCompile> {
